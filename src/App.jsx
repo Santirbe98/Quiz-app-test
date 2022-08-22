@@ -82,7 +82,9 @@ function App() {
               }
             }}
           >
-            {actualQuestion === Questions.length -1 ? "Volver a jugar" : 'Continuar'}
+            {actualQuestion === Questions.length - 1
+              ? "Volver a jugar"
+              : "Continuar"}
           </button>
         </div>
       </main>
